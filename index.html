@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Job Application Tracker</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Job Application Tracker</h1>
+  <button id="openModal">+ Add Job</button>
+</header>
+
+<main class="board">
+  <div class="column" data-status="applied">
+    <h2>Applied</h2>
+    <div class="job-list" id="applied"></div>
+  </div>
+
+  <div class="column" data-status="interview">
+    <h2>Interview</h2>
+    <div class="job-list" id="interview"></div>
+  </div>
+
+  <div class="column" data-status="offer">
+    <h2>Offer</h2>
+    <div class="job-list" id="offer"></div>
+  </div>
+
+  <div class="column" data-status="rejected">
+    <h2>Rejected</h2>
+    <div class="job-list" id="rejected"></div>
+  </div>
+</main>
+
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+<script src="js/drag.js"></script>
+
+</body>
+</html>
+
