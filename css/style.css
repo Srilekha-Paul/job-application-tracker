@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 20px;
+
+}
+.column{
+    background: #f4f6f8;
+    border-radius: 10px;
+    padding: 16px;
+}
+.column h2 {
+  text-align: center;
+}
+
+.job {
+  background: #e5e7eb;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: grab;
+}
