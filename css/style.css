@@ -29,9 +29,9 @@ button {
 
 }
 .column{
-    background: #f4f6f8;
-    border-radius: 10px;
-    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    padding: 12px;
 }
 .column h2 {
   text-align: center;
